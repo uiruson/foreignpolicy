@@ -1,0 +1,295 @@
+#productDisplay{
+	margin-left:25px;
+}
+
+.table-responsive{
+	padding-bottom: 18px;
+}
+
+#searchForm{
+	margin-top: 6px;
+}
+
+.filter_choices li{
+	display: inline;
+	list-style-type: none;
+	padding-right:20px;
+}
+
+.filter_choices li label{
+	margin-bottom: 0;
+}
+
+
+.bodyContainer {
+  	padding:0;
+ }
+
+.tabsMenuContainer{
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#checkoutProgress{
+	margin-top:27px;
+}
+
+.shoppingCartContainer{
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom: 20px;
+}
+
+.shoppingCartContainer .btn-primary{
+	font-family: "Oswald", sans-serif !important;
+	text-transform: uppercase !important;
+}
+
+.shoppingCartContainer .pull-right{
+	margin-right:33px;
+}
+
+.emptyCartContainer{
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.emptyCartContainer .btn-primary{
+	font-family: "Oswald", sans-serif !important;
+	text-transform: uppercase !important;
+}
+
+.emptyCartContainer .pull-right{
+	margin-right:33px;
+}
+
+.productDisplayContainer {
+	display: none;
+  	padding-right: 35px;
+  	padding-left: 35px;
+  	margin-right: auto;
+ 	margin-left: auto; 
+ }
+
+.checkoutContainer{
+	padding-right: 15px;
+	padding-left: 32px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+ }
+
+
+.bannerWrapper{
+ 	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-color:rgba(255, 255, 255, 0.7);
+	z-index:120;
+	-moz-transition:opacity 300ms ease;
+	-webkit-transition:opacity 300ms ease;
+	-o-transition:opacity 300ms ease; 
+	transition:opacity 300ms ease;
+	opacity: 1;
+}
+
+
+.contactUsContainer {
+	font-family: "Oswald", sans-serif !important;
+	height:319px; 
+	border-top:solid 1px #eee; 
+	border-bottom:solid 1px #eee;
+	-moz-transition: all 800ms ease; 
+	-webkit-transition: all 800ms ease; 
+	-o-transition: all 800ms ease; 
+	transition: all 800ms ease;
+	position:relative;
+}
+
+.contactUsContainer .map-wrapper{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-color:rgba(255, 255, 255, 0.7);
+	z-index:120;
+	-moz-transition:opacity 300ms ease;
+	-webkit-transition:opacity 300ms ease;
+	-o-transition:opacity 300ms ease; 
+	transition:opacity 300ms ease;
+	opacity: 1;
+}
+.contactUsContainer.active .map-wrapper{
+	opacity: 0;
+	-moz-transition:opacity 300ms ease;
+	-webkit-transition:opacity 300ms ease;
+	-o-transition:opacity 300ms ease; 
+	transition:opacity 300ms ease;
+}
+
+.contactUsButton{
+	background-color: #444;
+	color:#fff;
+	border: 0;
+	position: absolute;
+	bottom: 0;
+	left: 46.4%;
+	right: 46.4%;
+	width: 95px;
+	opacity: 0.3;
+	z-index: 200;
+}
+
+.contactUsButton span{
+	background-color: #444;
+	color:#fff;
+	border: 1px solid #444;
+}
+
+.contactUsButton span span {
+	height: auto;
+	background: none;
+	border: none;
+	line-height: 30px;
+	font-size: .9em;
+	text-transform: uppercase;
+}
+
+.contactUsContainer section {
+	padding-right: 10px;
+  	padding-left: 10px;
+	top:53px;
+	float: left;
+	position: relative;
+	z-index: 200;
+}
+
+#map-canvas {
+	width: 100%;
+	height: 317px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	z-index:100;
+}
+
+#webstoreAddress{
+	display:none;
+}
+
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+footer{
+	font-family: "Oswald", sans-serif !important;
+	border-top: 1px solid #888;
+	background-color: whitesmoke;
+	color: #555;
+}
+
+footer h4{
+	color: #555 !important;
+}
+
+footer ul{
+	list-style: none;
+	color: gray !important;
+}
+
+footer a{
+	color: gray !important;
+}
+
+footer .social{
+	padding-top: 5px;
+}
+
+@media screen and (device-aspect-ratio: 2/3) {
+
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+	
+}
+
+//iPhone 4 
+@media (min-width: 640px) and (max-width: 960px) {
+	.contactUsContainer {
+		height:590px;
+	}
+
+	#map-canvas{
+		height: 100%;
+	}
+
+	
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+	.contactUsContainer {
+		height:590px;
+	}
+
+	#map-canvas{
+		height: 100%;
+	}
+
+}
+
+@media (max-width: 480px) {
+
+	.contactUsContainer {
+		height:590px;
+	}
+
+	#map-canvas{
+		height: 100%;
+	}
+
+	.emptyCartContainer{
+		padding:0 !important;
+		margin: 0 !important;
+	}
+
+	.emptyCartContainer .pull-right{
+		margin-right:0 !important;
+	}
+
+}
+
+@media screen and (max-width: 73.5em) {
+
+
+	
+}
+
+@media screen and (max-width: 41.125em) {
+
+	
+}
+
+@media screen and (max-width: 30.6em) { 
+
+}
+
